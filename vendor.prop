@@ -19,5 +19,9 @@ persist.device_config.mglru_native.lru_gen_config=all
 # Fingerprint
 vendor.false_touch_quality=25
 
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # Radio
 ro.vendor.radio.imei.sv=33

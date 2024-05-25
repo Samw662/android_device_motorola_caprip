@@ -29,6 +29,7 @@ ODM_MANIFEST_N_FILES := $(DEVICE_PATH)/sku/manifest_n.xml
 ODM_MANIFEST_NC_FILES := $(DEVICE_PATH)/sku/manifest_nc.xml
 
 # Kernel
+TARGET_KERNEL_CLANG_VERSION := r475365b
 TARGET_KERNEL_CONFIG += vendor/ext_config/caprip-default.config
 
 # Kernel Modules - Vendor Boot
